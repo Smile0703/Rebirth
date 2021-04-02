@@ -155,6 +155,7 @@
   pointer-events: auto;
   background-image: url("images/poster.png");
   background-position: 50% 50%;
+  animation-duration: 1000ms;
 }
 
 .u-section-3 .u-container-layout-2 {
