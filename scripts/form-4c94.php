@@ -3,12 +3,12 @@
 require_once('FormProcessor.php');
 
 $form = array(
-    'subject' => 'New Form Submission',
+    'subject' => 'Asking for &quot;Rebirth&quot;',
     'email_message' => 'You have a new form submission',
     'success_redirect' => '',
     'sendIpAddress' => true,
     'email' => array(
-    'from' => 'bleachchiawai@gmail.com',
+    'from' => '',
     'to' => 'bleachchiawai@gmail.com'
     ),
     'fields' => array(
