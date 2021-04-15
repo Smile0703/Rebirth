@@ -9,10 +9,10 @@
 .u-section-1 .u-text-1 {
   text-transform: uppercase;
   font-size: 6rem;
-  animation-duration: 2000ms;
+  animation-duration: 1000ms;
   font-weight: normal;
   font-family: "Open Sans", sans-serif;
-  margin: 230px 310px 0;
+  margin: 230px calc(((100% - 1140px) / 2) + 230px) 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -23,15 +23,35 @@
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  margin: 30px auto -215px calc(((100% - 1140px) / 2) + 436px);
+  background-image: linear-gradient(#db545a, #666666);
+  border-style: none;
+  margin: 49px calc(((100% - 1140px) / 2) + 230px) 0 auto;
   padding: 12px 78px 13px;
+}
+
+.u-section-1 .u-btn-2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-image: linear-gradient(#db545a, #666666);
+  border-style: none;
+  margin: -51px auto 60px calc(((100% - 1140px) / 2) + 230px);
+  padding: 12px 78px 13px;
+}
+
+.u-section-1 .embed-responsive-1 {
+  position: absolute;
+  width: 178%;
+  left: -39%;
+  height: 178%;
+  top: -39%;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
     width: 680px;
-    margin-left: 210px;
-    margin-right: 210px;
+    margin-left: calc(((100% - 940px) / 2) + 130px);
+    margin-right: calc(((100% - 940px) / 2) + 130px);
   }
 
   .u-section-1 .u-text-2 {
@@ -41,15 +61,19 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-left: calc(((100% - 940px) / 2) + 236px);
+    margin-right: calc(((100% - 940px) / 2) + 130px);
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 940px) / 2) + 130px);
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-text-1 {
     width: auto;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-right: calc(((100% - 720px) / 2) + 20px);
+    margin-left: calc(((100% - 720px) / 2) + 20px);
   }
 
   .u-section-1 .u-text-2 {
@@ -58,7 +82,12 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-left: auto;
+    margin-top: 50px;
+    margin-right: calc(((100% - 720px) / 2) + 20px);
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 720px) / 2) + 20px);
   }
 }
 
@@ -72,6 +101,16 @@
     width: 540px;
     margin-left: calc(((100% - 540px) / 2));
     margin-right: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 131px;
+    margin-right: auto;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: -132px;
+    margin-left: auto;
   }
 }
 
